@@ -40,6 +40,7 @@ pipeline {
                     dockerImage.push("$BUILD_NUMBER")
                                               }
                                     }
+                                   }
                              }
                   }
      stage('Remove Unused docker image') {
