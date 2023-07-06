@@ -3,7 +3,7 @@ pipeline {
 
   environment {
        imagename = "gravityrahman/first-repository"
-       registryCredential = 'Dockerhub'
+       registryCredential = 'DockerHub'
        dockerImage = ''
            }
 
